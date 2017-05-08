@@ -1,0 +1,285 @@
+﻿
+body
+{
+    
+}
+
+h1 
+{
+    font-family:Forte;   
+    font-style:initial;     
+    font-size:60px; 
+    color:#003333;
+    text-align:center;
+    line-height:0px;
+}
+
+h1.second 
+{
+    font-size:large;
+    color:goldenrod;
+    text-align:center;
+}
+
+h2 
+{
+    font-family:'Comic Sans MS';
+    font-style:normal;
+    color:#003333;
+    font-size:30px;
+    text-align:center;
+}
+
+h3
+{
+    font-family:cooper ;
+    font-style:normal;
+    color:#FFFF99;
+    font-size:xx-large;
+    text-align:center;
+}
+
+h3.estadio
+
+{
+    font-family:'Comic Sans MS' ;
+    color:#FF6633;
+    font-size:40px;
+    text-align:center;
+}
+
+h3.mail
+{
+   font-family:Book Antiqua ;
+    font-style:normal;
+    color:maroon;
+    font-size:medium;
+    text-align:right;
+}
+
+ol 
+{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  font-size:20px;
+  line-height:36px;
+  text-align:center;
+}
+
+ol a
+{
+  display: block;
+  color: #FF6633;
+  text-decoration: none;
+  padding:  0px;
+}
+
+ol > li > ul
+ {  
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  font-size:17px;
+  display:none;
+}
+
+ol > li:hover > ul 
+{
+  display:block;
+}
+
+ol > li:hover >a 
+{
+  color:maroon;
+  background-color:#99CCCC;
+}
+
+ol > li > ul > li > a
+{
+  background-color:#66CCCC;
+  position:relative;
+  border:1px solid white;
+}
+
+ol > li > ul > li:hover > a
+ {
+  background-color:#339999;
+  color:maroon;
+}
+
+p
+{
+   color:#003333;
+   
+
+}
+
+p:first-letter
+{
+    color:#FF6633;
+  
+}
+
+#dokument 
+{
+    min-width:100px;
+}
+
+#tloKlub
+{
+background-image:url(tlo.jpg);
+background-size:100%;
+
+}
+
+#tloKolor
+{
+    background-color:#F2FCFC;
+}
+
+#tloStadion
+{
+    background-image:url(stadion.jpg);
+    background-size:100%;
+
+}
+
+#naglowek 
+{
+    height:300px;
+    position:relative;
+    border-bottom:2px solid;
+    border-color:#003333;
+    border-top:2px solid;
+    background-image:url(images/twarze.jpg);
+    background-size:100%;
+}
+
+#menu
+{
+  height:100px;
+   float:left;
+   height:550px;
+    width:280px;
+}
+
+#tresc
+{
+    position:relative;
+   padding:80px;
+    height:auto;
+    overflow:auto;     
+}
+
+#footer 
+{
+     
+     position:relative;
+     clear:both;
+    font-family:Times New Roman;
+    color:#FF6633;
+    font-size:20px;
+    text-align:center;
+    background-image:url(tlo1.jpg);
+background-size:100%;
+}
+
+.podpis 
+{
+    font-family: 'Comic Sans MS';
+    color: #FF6633;
+    font-size: 40px;
+    text-align: center;
+}
+
+table 
+{
+    border-collapse: collapse;
+    text-align: center;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td
+{
+    border:solid;
+    border-width:2px;
+	background-color:white;
+    text-align:center;
+}
+
+
+th 
+{
+    border: solid;
+    border-width:4px;
+    text-align:left;
+}
+
+
+form 
+{
+    font-family:Times New Roman;
+    font-size:16px;
+    color:#FF9966;
+    
+}
+
+th.kolorkolumny
+{
+    background-color:#FF6633;
+    font-family:Cooper;
+}
+
+tr#kolorwiersza
+{
+    background-color:#FF9966;
+   font-family:Forte;
+}
+
+
+#animacja {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: relative;
+     -webkit-animation-name: animation; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: 4;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+}
+
+
+@-webkit-keyframes animation {
+    0%   {background-color:cyan; left:0px; top:0px;}
+    25%  {background-color:yellow; left:500px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:cyan; left:0px; top:0px;}
+}
+
+@keyframes animation {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+
+
+  
+    
+    
+    
+    
+
+    
